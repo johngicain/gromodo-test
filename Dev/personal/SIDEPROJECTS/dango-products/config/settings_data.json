@@ -1,0 +1,2560 @@
+{
+  "presets": {
+  },
+  "current": {
+    "logo_color": "#171717",
+    "nav_color": "#ffffff",
+    "nav_color_home": "#ffffff",
+    "nav_color_hover": "#ff6600",
+    "header_bg_color": "#040404",
+    "header_background": true,
+    "transparent_header": true,
+    "headline_color": "#494c50",
+    "headline_border_color": "#494c50",
+    "regular_color": "#000000",
+    "banner_color": "#ffffff",
+    "sale_color": "#ff6600",
+    "was_price_color": "#7f8c8d",
+    "link_color": "#ff6600",
+    "link_hover_color": "#323232",
+    "sidebar_nav_color": "#323232",
+    "sidebar_nav_color_hover": "#7f8c8d",
+    "btn_color": "#ff6600",
+    "btn_hover_color": "#323232",
+    "btn_text_color": "#ffffff",
+    "sub_footer_border_color": "#dddddd",
+    "headline_footer_text_color": "#ffffff",
+    "sub_footer_text_color": "#acacac",
+    "sub_footer_link_color": "#acacac",
+    "sub_footer_link_color_hover": "#f06022",
+    "sub_footer_color": "#323232",
+    "border_color": "#b8c6c6",
+    "table_styles_enabled": false,
+    "sale_banner_color": "#ff6600",
+    "new_banner_color": "#323232",
+    "shop_bg_color": "#ffffff",
+    "custom_bg": "",
+    "repeat_bg": "repeat",
+    "shop_home_page_content_text_color": "#323232",
+    "shop_home_page_content_bg_color": "#ffffff",
+    "newsletter_popup_color": "#494c50",
+    "newsletter_popup_background_color": "#5f5f5f",
+    "newsletter_bg": "",
+    "newsletter_bg_stretched": false,
+    "mobile_menu_color": "dark",
+    "password_page_text_color": "#ffffff",
+    "password_page_background_color": "#000000",
+    "logo_font_style": "none",
+    "logo_font_size": 18,
+    "headline_font_style": "uppercase",
+    "headline_border": "none",
+    "headline_font_size": 20,
+    "headline_letter_spacing": 2,
+    "nav_font_style": "uppercase",
+    "nav_font_size": 14,
+    "nav_letter_spacing": 3,
+    "button_font_style": "uppercase",
+    "button_font_size": 16,
+    "regular_font_style": "none",
+    "regular_font_size": 14,
+    "footer_font_size": 13,
+    "slideshow_headline_size": 60,
+    "slideshow_subtitle_font_style": "uppercase",
+    "slideshow_subtitle_size": 20,
+    "align_height": false,
+    "collection_height": 200,
+    "collection_secondary_image": true,
+    "display_vendor_collection": false,
+    "sale_banner_enabled": true,
+    "collection_swatches": false,
+    "collection_price_position": "center",
+    "mobile_products_per_row": "1",
+    "display_product_quantity": true,
+    "display_inventory_left": false,
+    "product_form_style": "dropdown",
+    "free_price_text": "Coming Soon",
+    "notify_me_form": false,
+    "enable_shopify_review_comments": true,
+    "review_position": "top",
+    "enable_shopify_collection_badges": false,
+    "enable_shopify_product_badges": false,
+    "quick_shop_enabled": false,
+    "cart_action": "ajax",
+    "display_tos_checkbox": false,
+    "side_cart_position": "right",
+    "display_special_instructions": false,
+    "show_shipping_calculator": false,
+    "shipping_calculator_default_country": "United States",
+    "newsletter_popup": false,
+    "newsletter_popup_mobile": false,
+    "newsletter_popup_title": "",
+    "newsletter_popup_image": "shopify:\/\/shop_images\/ENTER_TO_WIN_R2-01.jpg",
+    "newsletter_popup_text": "",
+    "newsletter_popup_link": "",
+    "newsletter_popup_seconds": 2,
+    "newsletter_popup_days": "0",
+    "newsletter_popup_max_width": 600,
+    "newsletter_popup_form": true,
+    "display_first_name": false,
+    "display_last_name": false,
+    "twitter_link": "https:\/\/twitter.com\/dango_products",
+    "facebook_link": "https:\/\/www.facebook.com\/dangoproducts",
+    "youtube_link": "https:\/\/www.youtube.com\/channel\/UCg5Z3xXs6vj6yS6JeXGE-UA",
+    "vimeo_link": "",
+    "pinterest_link": "",
+    "tumblr_link": "",
+    "instagram_link": "https:\/\/www.instagram.com\/dango_products\/",
+    "snapchat_link": "",
+    "houzz_link": "",
+    "linkedin_link": "",
+    "email_link": "",
+    "disqus_enabled": false,
+    "disqus_shortname": "",
+    "currency_format": "money_format",
+    "search_option": "everything",
+    "favicon": "shopify:\/\/shop_images\/Asset_1.png",
+    "slideshow_images_crop": true,
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Asset_1_6a0e38c9-3b64-40f2-ab34-0a04a706b291.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "small",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Open Sans",
+    "checkout_body_font": "Open Sans",
+    "checkout_accent_color": "#2c3439",
+    "checkout_button_color": "#f06022",
+    "checkout_error_color": "#ff6d6d",
+    "promo_text_color": "#ffffff",
+    "share_banner_color": "#ff6600",
+    "quick_shop_color": "#323232",
+    "bg_fixed": false,
+    "bg_stretched": false,
+    "modal_background_color": "#ffffff",
+    "promo_bg_color": "#000000",
+    "custom_footer": "",
+    "footer_repeat_bg": "repeat",
+    "footer_bg_stretched": false,
+    "custom_logo": "",
+    "password-page-background": "",
+    "pagework_page_bg_stretched": true,
+    "logo_font": "Google_Unica+One",
+    "logo_weight": "normal",
+    "headline_font": "Google_Glegoo",
+    "headline_weight": "normal",
+    "headline_font_text": "normal",
+    "nav_font": "Google_Glegoo",
+    "nav_weight": "bold",
+    "regular_font": "Google_Open+Sans",
+    "regular_weight": "lighter",
+    "button_weight": "bold",
+    "slideshow_headline_weight": "lighter",
+    "slideshow_subtitle_font": "Google_Open+Sans",
+    "slideshow_subtitle_weight": "normal",
+    "slideshow_subtitle_font_text": "lighter",
+    "slideshow_shadow": false,
+    "size_chart": "",
+    "product_slideshow_animation": "fade",
+    "slideshow_speed": "6",
+    "thumbnail_position": "bottom-thumbnails",
+    "product_description_position": "bottom",
+    "description_words": "30",
+    "google_link": "",
+    "show_multiple_currencies": false,
+    "supported_currencies": "USD CAD AUD GBP EUR JPY",
+    "default_currency": "USD",
+    "slideshow_subtitle_typeface_method": "google_webfonts",
+    "video_dark_overlay": false,
+    "headline_animation": "fadeIn",
+    "use_logo": false,
+    "use_logo_home": false,
+    "logo_width": "205",
+    "main_linklist": "main-menu",
+    "dropdown_column_links": "10",
+    "logo_top_padding": "10",
+    "menu_top_padding": "0",
+    "search_enabled": true,
+    "tab_background_color": "#ffffff",
+    "mobile_header_bg_color": "#ffffff",
+    "shop_use_content_bg_color": false,
+    "shop_content_bg_color": "",
+    "shop_use_home_page_content_bg_color": true,
+    "use_custom_bg_image": false,
+    "use_custom_footer_image": false,
+    "logo_typeface_method": "google_webfonts",
+    "logo_websafe_font": "Helvetica, Arial, sans-serif",
+    "logo_color_home": "#ffffff",
+    "headline_typeface_method": "google_webfonts",
+    "headline_websafe_font": "'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+    "nav_typeface_method": "google_webfonts",
+    "nav_websafe_font": "'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Lucida, Helvetica, Arial, sans-serif",
+    "nav_shadow": true,
+    "regular_typeface_method": "google_webfonts",
+    "regular_websafe_font": "'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+    "promo_text": "",
+    "slideshow_1_enabled": true,
+    "homepage_arrow": true,
+    "image_1_height": "550",
+    "image_1_alt_text": "",
+    "image_1_headline": "Parallax Shopify Theme",
+    "image_1_subtitle": "",
+    "image_1_text_color": "#ffffff",
+    "image_1_text_align": "center",
+    "image_1_button_text": "",
+    "image_1_link": "",
+    "slideshow_2_enabled": false,
+    "image_2_position": "3",
+    "image_2_height": "550",
+    "image_2_alt_text": "",
+    "image_2_headline": "",
+    "image_2_subtitle": "",
+    "image_2_text_color": "#ffffff",
+    "image_2_text_align": "center",
+    "image_2_button_text": "",
+    "image_2_link": "",
+    "slideshow_3_enabled": false,
+    "image_3_position": "5",
+    "image_3_height": "550",
+    "image_3_alt_text": "",
+    "image_3_headline": "",
+    "image_3_subtitle": "",
+    "image_3_text_color": "#ffffff",
+    "image_3_text_align": "center",
+    "image_3_button_text": "",
+    "image_3_link": "",
+    "slideshow_4_enabled": false,
+    "image_4_position": "7",
+    "image_4_height": "550",
+    "image_4_alt_text": "",
+    "image_4_headline": "",
+    "image_4_subtitle": "",
+    "image_4_text_color": "#ffffff",
+    "image_4_text_align": "center",
+    "image_4_button_text": "",
+    "image_4_link": "",
+    "slideshow_5_enabled": false,
+    "image_5_position": "10",
+    "image_5_height": "550",
+    "image_5_alt_text": "",
+    "image_5_headline": "",
+    "image_5_subtitle": "",
+    "image_5_text_color": "#ffffff",
+    "image_5_text_align": "center",
+    "image_5_button_text": "",
+    "image_5_link": "",
+    "slideshow_6_enabled": false,
+    "image_6_position": "2",
+    "image_6_height": "550",
+    "image_6_alt_text": "",
+    "image_6_headline": "",
+    "image_6_subtitle": "",
+    "image_6_text_color": "#ffffff",
+    "image_6_text_align": "center",
+    "image_6_button_text": "",
+    "image_6_link": "",
+    "homepage1": "frontpage",
+    "homepage2": "",
+    "homepage3": "",
+    "content_1_position": "4",
+    "content_2_position": "6",
+    "content_3_position": "10",
+    "featured_links_position": "2",
+    "featured_links": true,
+    "featured_links_count": "3",
+    "featured_links_style": "fadeInUp",
+    "feature1_link": "",
+    "feature1_title": "Step 1",
+    "feature1_description": "Go to the Themes &raquo; Customize Theme section to get started setting up the Parallax theme.",
+    "feature2_link": "",
+    "feature2_title": "Step 2",
+    "feature2_description": "Checkout our <a href=\"http:\/\/support.outofthesandbox.com\/\">Support Center<\/a> for theme-related articles, or the <a href=\"http:\/\/docs.shopify.com\/manual\">Shopify Manual<\/a> for general shop setup.",
+    "feature3_link": "",
+    "feature3_title": "Step 3",
+    "feature3_description": "Publish Parallax as your main theme when you're ready to launch. Let us know about new shop launches on <a href=\"https:\/\/twitter.com\/outofthesandbox\">Twitter<\/a>!",
+    "feature4_link": "",
+    "feature4_description": "",
+    "featured_collections_position": "15",
+    "frontpage_linklist": "",
+    "frontpage_collections_per_row": "4",
+    "featured_products_position": "8",
+    "frontpage_collection": "frontpage",
+    "frontpage_products_per_row": "4",
+    "featured_product_position": "9",
+    "frontpage_display_description": false,
+    "frontpage_product_stagger": true,
+    "featured_blog_position": "13",
+    "blog_widget_select": "news",
+    "home_page_articles": "4",
+    "featured_social_position": "14",
+    "twitter_widget": false,
+    "twitter_username": "",
+    "tweet_count": "3",
+    "instagram_widget": false,
+    "instagram_client_id": "",
+    "instagram_title": "Instagram",
+    "instagram_username": "",
+    "instagram_count": "6",
+    "product_breadcrumb": true,
+    "display_tags": true,
+    "display_type": true,
+    "display_vendor": true,
+    "display_collections": true,
+    "display_social_buttons": true,
+    "product_images_position": "left",
+    "product_thumbs": true,
+    "display_related_products": true,
+    "add_to_cart_text": "Add to Cart",
+    "sold_out_text": "Sold Out",
+    "related_products_title": "Related Items",
+    "inventory_left_text": "items left",
+    "products_per_row": "2",
+    "pagination_limit": "48",
+    "collection_breadcrumb": true,
+    "collection_tags": true,
+    "collection_sort": true,
+    "display_collection_title": true,
+    "quick_shop_full_description": true,
+    "homepage_sidebar": false,
+    "collection_sidebar": false,
+    "product_sidebar": false,
+    "collection_sidebar_linklist": "",
+    "collection_sidebar_linklist2": "",
+    "filter_by_category": false,
+    "filter_by_tag": false,
+    "collection_sidebar_products": false,
+    "collection_sidebar_vendors": false,
+    "collection_sidebar_vendor_text": "Vendors",
+    "tags_text": "Filter",
+    "side_cart_enabled": true,
+    "tax_included": false,
+    "shipping_calculator_heading": "Shipping rates calculator",
+    "shipping_calculator_submit_button_label": "Calculate shipping rates",
+    "shipping_calculator_submit_button_label_disabled": "Calculating...",
+    "constrain_logo": true,
+    "total_text": "TOTAL",
+    "display_recent_articles": true,
+    "display_social_buttons_blog": true,
+    "blog_tags": true,
+    "blog_author": true,
+    "blog_content_page": "",
+    "contact_address": "",
+    "zoom_level": "15",
+    "copyright_text": "",
+    "newsletter_enabled": true,
+    "newsletter_description": "Sign up to get the latest on sales, new releases and more …",
+    "newsletter_success_text": "Thank you for joining our mailing list!",
+    "newsletter_system": "shopify",
+    "mailchimp_link": "",
+    "footer_linklist_1": "footer",
+    "footer_content_page": "",
+    "display_designed_by": true,
+    "social_icons_footer": true,
+    "flickr_link": "",
+    "use_paypal": false,
+    "use_bitcoin": false,
+    "use_visa": false,
+    "use_visaelectron": false,
+    "use_mastercard": false,
+    "use_amex": false,
+    "use_cirrus": false,
+    "use_delta": false,
+    "use_discover": false,
+    "use_western_union": false,
+    "newsletter_popup_page": "",
+    "blog_widget": "false",
+    "instagram_tag_name": "",
+    "slideshow_animation": "fade",
+    "slideshow_menu": "true",
+    "cart_return": "checkout",
+    "side_cart_button_position": "bottom",
+    "nav_active_color": "#B8C6C6",
+    "quick_shop_text": "Quick View",
+    "newsletter_text": "News & Updates",
+    "footer_link_color": "#55c0d4",
+    "footer_link_color_hover": "#fc4c02",
+    "footer_color": "#16161d",
+    "footer_text_color": "#ffffff",
+    "featured_text": "#ffffff",
+    "feature1_text": "420x265",
+    "feature2_text": "420x265",
+    "feature3_text": "420x265",
+    "featured_links_weight": "bold",
+    "social_icons_enabled": "true",
+    "headline_sub_footer_text_color": "#404040",
+    "option_to_match": "",
+    "collection_sidebar_page": "",
+    "collection_top_sidebar_page": "",
+    "frontpage_collection_full": "",
+    "fixed_header": true,
+    "feature4_title": "",
+    "blog_breadcrumb": true,
+    "slideshow_blog_enabled": false,
+    "image_blog_height": "400",
+    "image_blog_headline": "",
+    "image_blog_subtitle": "",
+    "image_blog_text_color": "#ffffff",
+    "image_blog_text_align": "center",
+    "slideshow_contact_enabled": false,
+    "image_contact_height": "400",
+    "image_contact_headline": "",
+    "image_contact_subtitle": "",
+    "image_contact_text_color": "#ffffff",
+    "image_contact_text_align": "center",
+    "checkout_call_to_action_color": "#bc8420",
+    "sections": {
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "product_breadcrumb": true,
+          "set_product_height": false,
+          "product_height": 500
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "footer_linklist_1": "footer",
+          "footer_social_icons": true,
+          "footer_newsletter": true,
+          "copyright_text": "",
+          "display_payment_methods": false
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "fixed_header": true,
+          "promo_home_page": false,
+          "promo_text": "<p>FREE USA SHIPPING OVER $49<\/p>",
+          "announcement_link": "",
+          "logo": "shopify:\/\/shop_images\/Dango_logo2.png",
+          "logo_width": 175,
+          "logo_top_padding": 10,
+          "main_linklist": "main-menu",
+          "dropdown_column_links": 8,
+          "dropdown_position": "below_parent",
+          "menu_alignment": "align_right",
+          "menu_top_padding": 10,
+          "search_enabled": true
+        }
+      },
+      "1482978263392": {
+        "type": "featured-collection",
+        "disabled": true,
+        "settings": {
+          "title": "LATEST RELEASE",
+          "frontpage_collection": "latest-release",
+          "frontpage_products_limit": 12
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "products_per_row": 3,
+          "pagination_limit": 36,
+          "collection_sort": true,
+          "toggle": true
+        }
+      },
+      "1500162781708": {
+        "type": "video",
+        "settings": {
+          "aspect_ratio": "16:9",
+          "autoplay": false,
+          "autoloop": false,
+          "video_dark_overlay": false,
+          "display_text_over_video": false,
+          "image": "shopify:\/\/shop_images\/video_opening_R2_small_75e83d0d-c99c-4cba-911a-aead4ce66b17.jpg",
+          "headline_animation": "animate_down",
+          "title": "",
+          "subtitle": "",
+          "button_label": "Play Video",
+          "link": "",
+          "text_position": "center",
+          "homepage_arrow": false,
+          "parallax_effect": false
+        }
+      },
+      "contact-template": {
+        "type": "contact-template",
+        "settings": {
+          "parallax_effect": true
+        }
+      },
+      "1500158055046": {
+        "type": "slideshow",
+        "blocks": {
+          "a55d8fb1-700e-44c7-a75d-41153582c4f0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1600x1000_afterpay.jpg",
+              "title": "MAVERICK",
+              "subtitle": "<p>M-SERIES WALLETS - TOUGH, SLEEK and refined<\/p>",
+              "button_label": "shop now",
+              "link": "shopify:\/\/collections\/m-series-wallets",
+              "text_position": "center"
+            }
+          },
+          "d499dbcf-173c-49cd-89d3-31cb4d2b8de9": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner_1600_PENNY.jpg",
+              "title": "CULTIVATED",
+              "subtitle": "<p>the best materials brought together in a dapper collection<\/p>",
+              "button_label": "SHOP NOW",
+              "link": "https:\/\/www.dangoproducts.com\/collections\/archetype-the-dapper-collection",
+              "text_position": "center"
+            }
+          },
+          "ae682ce9-4700-4885-bc52-f9cccdef33c6": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cash_option-05_ccce5da9-ee12-4a7d-bdf2-53d8d79bfd8f.jpg",
+              "title": "CASH OPTIONS",
+              "subtitle": "<p>MC01 TITANIUM MONEY CLIPS<\/p>",
+              "button_label": "SHOP NOW",
+              "link": "shopify:\/\/products\/mc01-titanium-money-clip",
+              "text_position": "center"
+            }
+          },
+          "8b692a15-087a-4e04-bf07-75067153b076": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1600_rail.jpg",
+              "title": "SLIDE ACTION",
+              "subtitle": "<p>M1 RAIL WALLET with rapid card access<\/p>",
+              "button_label": "shop now",
+              "link": "https:\/\/www.dangoproducts.com\/collections\/m-series-wallets\/products\/m1-maverick-rail-wallet",
+              "text_position": "center"
+            }
+          },
+          "153c092c-487b-46e0-a8d1-f784b7ca7bc3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/HOME_BANNER_IMAGES-04.jpg",
+              "title": "TAKE ACTION",
+              "subtitle": "<p>SPEC-OPS EDITION - durable cerakote finish packed with action<\/p>",
+              "button_label": "SHOP NOW",
+              "link": "https:\/\/www.dangoproducts.com\/collections\/spec-ops-edition",
+              "text_position": "center"
+            }
+          },
+          "da36bc7a-660b-496f-9caa-290209e5cea6": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/KRASE_0003_DSC_8719.jpg",
+              "title": "DANGO BRAND",
+              "subtitle": "<p>ACTION PACKED - HEAD TO TOE<\/p>",
+              "button_label": "SHOP NOW",
+              "link": "shopify:\/\/collections\/dango-apparel",
+              "text_position": "center"
+            }
+          }
+        },
+        "block_order": [
+          "a55d8fb1-700e-44c7-a75d-41153582c4f0",
+          "d499dbcf-173c-49cd-89d3-31cb4d2b8de9",
+          "ae682ce9-4700-4885-bc52-f9cccdef33c6",
+          "8b692a15-087a-4e04-bf07-75067153b076",
+          "153c092c-487b-46e0-a8d1-f784b7ca7bc3",
+          "da36bc7a-660b-496f-9caa-290209e5cea6"
+        ],
+        "settings": {
+          "slideshow_speed": 10,
+          "parallax_effect": false
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_collection_header_title": false,
+          "collection_breadcrumb": true,
+          "collections_per_row": 3,
+          "pagination_limit": 24
+        }
+      },
+      "product-details-template": {
+        "type": "product-details-template",
+        "blocks": {
+          "1524026590189": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "1536649028703": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Spec_Ops_WEBSITE-01.png",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1524012866383": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          }
+        },
+        "block_order": [
+          "1524026590189",
+          "1536649028703",
+          "1524012866383"
+        ],
+        "settings": {
+          "product_breadcrumb": true,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": true,
+          "product_height": "400",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-details-template2": {
+        "type": "product-details-template2",
+        "blocks": {
+          "product-details-template2-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-details-template2-3": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-details-template2-0": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/T02_PAGE_GRAPHIC-01.jpg",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-details-template2-1": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          }
+        },
+        "block_order": [
+          "product-details-template2-5",
+          "product-details-template2-3",
+          "product-details-template2-0",
+          "product-details-template2-1"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": true,
+          "product_height": "400",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-details-template3": {
+        "type": "product-details-template3",
+        "blocks": {
+          "product-details-template3-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "1563440357221": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DTEX_BELT_product_detail2-02.png",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "SHOP BELTS",
+              "button_link": "https:\/\/www.dangoproducts.com\/collections\/belts"
+            }
+          },
+          "product-details-template3-0": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/BELT_PAGE_GRAPHIC-01_f7a7e6e2-b08d-4222-87e7-a82301fc6248.jpg",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-details-template3-1": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-details-template3-3": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          }
+        },
+        "block_order": [
+          "product-details-template3-5",
+          "1563440357221",
+          "product-details-template3-0",
+          "product-details-template3-1",
+          "product-details-template3-3"
+        ],
+        "settings": {
+          "product_breadcrumb": true,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": true,
+          "product_height": "400",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-details-template4": {
+        "type": "product-details-template4",
+        "blocks": {
+          "product-details-template4-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-details-template4-0": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D007_longpage-01.jpg",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-details-template4-1": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-details-template4-3": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          }
+        },
+        "block_order": [
+          "product-details-template4-5",
+          "product-details-template4-0",
+          "product-details-template4-1",
+          "product-details-template4-3"
+        ],
+        "settings": {
+          "product_breadcrumb": true,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": true,
+          "product_height": "400",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "display_special_instructions": false
+        }
+      },
+      "product-details-template-d01": {
+        "type": "product-details-template-d01",
+        "blocks": {
+          "product-details-template-d01-0": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D01_BLAST-01_f19e8be6-6439-4434-9d42-b697d896cbe8.jpg",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-details-template-d01-1": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-details-template-d01-3": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-details-template-d01-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          }
+        },
+        "block_order": [
+          "product-details-template-d01-0",
+          "product-details-template-d01-1",
+          "product-details-template-d01-3",
+          "product-details-template-d01-5"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": true,
+          "product_height": "400",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-details-template-t01": {
+        "type": "product-details-template-t01",
+        "blocks": {
+          "product-details-template-t01-0": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/T01_BLAST-01_99924027-75d6-427b-aa73-b353d488918a.jpg",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-details-template-t01-1": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-details-template-t01-3": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-details-template-t01-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          }
+        },
+        "block_order": [
+          "product-details-template-t01-0",
+          "product-details-template-t01-1",
+          "product-details-template-t01-3",
+          "product-details-template-t01-5"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": true,
+          "product_height": "400",
+          "display_related_products": true,
+          "products_per_row": "4",
+          "related_products_position": "below"
+        }
+      },
+      "product-details-template-p01": {
+        "type": "product-details-template-p01",
+        "blocks": {
+          "product-details-template-p01-0": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/VEGTAN_scroller-01.jpg",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-details-template-p01-1": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-details-template-p01-3": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-details-template-p01-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          }
+        },
+        "block_order": [
+          "product-details-template-p01-0",
+          "product-details-template-p01-1",
+          "product-details-template-p01-3",
+          "product-details-template-p01-5"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": true,
+          "product_height": "400",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-template-bifold": {
+        "type": "product-template-bifold",
+        "blocks": {
+          "1533193031430": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/BIFOLD_BLAST_website-02.jpg",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1533193031430"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-details-template_ops": {
+        "type": "product-details-template_ops",
+        "blocks": {
+          "product-details-template_ops-1": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "1536647260695": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Spec_Ops_WEBSITE-01.png",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-details-template_ops-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          }
+        },
+        "block_order": [
+          "product-details-template_ops-1",
+          "1536647260695",
+          "product-details-template_ops-5"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-template-details-dtex": {
+        "type": "product-template-details-dtex",
+        "blocks": {
+          "product-template-details-dtex-1": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "1539023327027": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dtex_logo-01.png",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1539022586386": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "",
+              "content": "<p>DTEX Material is our newly developed material that is non-leather but very durable. The textured surface is easy to clean and water resistant. The feel is incredibly tactile and molds to your everyday use.&nbsp;<\/p>",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1539023698605": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC_5430_fixi_square.jpg",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1539023869312": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "MODIFY to your touch",
+              "content": "<p>Compatible with: D01, T01, D02, T02 &amp; D007&nbsp;<\/p>",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-template-details-dtex-2": {
+            "type": "image_gallery",
+            "settings": {
+              "product_detail_image_1": "shopify:\/\/shop_images\/silver_dtex_sq.jpg",
+              "product_detail_image_2": "shopify:\/\/shop_images\/bifold_dtex_sq.jpg",
+              "product_detail_image_3": "shopify:\/\/shop_images\/red_dtex_sq.jpg"
+            }
+          },
+          "product-template-details-dtex-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          }
+        },
+        "block_order": [
+          "product-template-details-dtex-1",
+          "1539023327027",
+          "1539022586386",
+          "1539023698605",
+          "1539023869312",
+          "product-template-details-dtex-2",
+          "product-template-details-dtex-5"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-template-mt03": {
+        "type": "product-template-mt03",
+        "blocks": {
+          "1540455332290": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/MT03_SPEC_fx-01.png",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-template-mt03-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          }
+        },
+        "block_order": [
+          "1540455332290",
+          "product-template-mt03-5"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "3",
+          "related_products_position": "below"
+        }
+      },
+      "product-template-s1": {
+        "type": "product-template-s1",
+        "blocks": {
+          "1540457392835": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/MT03_SPEC-02.png",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-template-s1-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          }
+        },
+        "block_order": [
+          "1540457392835",
+          "product-template-s1-5"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "4",
+          "related_products_position": "below"
+        }
+      },
+      "product-details-template-m1": {
+        "type": "product-details-template-m1",
+        "blocks": {
+          "product-details-template-m1-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "1543567015508": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/M1_WEB_DETAILS_update2-02.png",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "product-details-template-m1-5",
+          "1543567015508"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-details-template-m1specops": {
+        "type": "product-details-template-m1specops",
+        "blocks": {
+          "product-details-template-m1specops-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "1543568468556": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/M1_WEB_DETAILS_R2-01.png",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "product-details-template-m1specops-5",
+          "1543568468556"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-template-details-m007": {
+        "type": "product-template-details-m007",
+        "blocks": {
+          "product-template-details-m007-0": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/M007_BLAST_3-03.png",
+              "title": "M007 Limited Edition Wallet",
+              "content": "<p>Unleashed from the quartermaster&rsquo;s chamber, the M007 Limited Edition wallet awaits its mission. Designed to meld elegance &amp; function with a tactical edge, this wallet will bring out the Bond in anyone that uses it. The M007 wallet is equipped with the MT04 multi-tool, a must-have for any special agent&rsquo;s pocket arsenal, boasting over 10 functions.&nbsp;<\/p>\n<p><\/p>\n<p>Machined out of 6061 aerospace aluminum, the chem-etched gold anodized wallet chassis has a velvet-like finish. The hand polished nickel plated backplate creates a contrast between ultra-matte and high-gloss. The combination of top grain leather, premium metals &amp; precision craftsmanship really defines the design language of the M007 Limited Edition Wallet.<\/p>",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-template-details-m007-1": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-template-details-m007-2": {
+            "type": "image_gallery",
+            "settings": {
+              "product_detail_image_1": "shopify:\/\/shop_images\/M0072_0017_DSC_1867.jpg",
+              "product_detail_image_2": "shopify:\/\/shop_images\/M0072_0015_DSC_1812_fixi.jpg",
+              "product_detail_image_3": "shopify:\/\/shop_images\/M0072_0025_DSC_2073.jpg"
+            }
+          },
+          "product-template-details-m007-3": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-template-details-m007-4": {
+            "type": "image_with_text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/M0072_0028_DSC_2093_fixi.jpg",
+              "layout": "right",
+              "title": "SHAKEN",
+              "text": "<p>A hybrid of tactical functions, uncanny style and fashion puts the M007 wallet in a space all on it's own, shaking up the slim wallet sector.<\/p>",
+              "button_label": "buy now",
+              "button_link": "shopify:\/\/products\/m007-limited-edition-maverick-wallet",
+              "frontpage_text_align": "left"
+            }
+          },
+          "product-template-details-m007-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          }
+        },
+        "block_order": [
+          "product-template-details-m007-0",
+          "product-template-details-m007-1",
+          "product-template-details-m007-2",
+          "product-template-details-m007-3",
+          "product-template-details-m007-4",
+          "product-template-details-m007-5"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "page-banner-template": {
+        "type": "page-banner-template",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/wet_watches-02.png",
+          "text_position": "center",
+          "text_alignment": "center",
+          "parallax_effect": false
+        }
+      },
+      "product-template-details-m2": {
+        "type": "product-template-details-m2",
+        "blocks": {
+          "product-template-details-m2-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "1558988786745": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/M2_blast-02.png",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "product-template-details-m2-5",
+          "1558988786745"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-template-details-p02": {
+        "type": "product-template-details-p02",
+        "blocks": {
+          "product-template-details-p02-0": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/P02_TITLE-01_fb1587ed-e4cc-4914-8db7-4b054dca4a3a.png",
+              "title": "",
+              "content": "<p>The P02 Pioneer Travel Wallet packs all the necessities for the avid world traveller. With a sidekick like the P02, you'll always be prepared in any part of the world.<\/p>",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-template-details-p02-1": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-template-details-p02-2": {
+            "type": "image_gallery",
+            "settings": {
+              "product_detail_image_1": "shopify:\/\/shop_images\/P27.jpg",
+              "product_detail_image_2": "shopify:\/\/shop_images\/P20.jpg",
+              "product_detail_image_3": "shopify:\/\/shop_images\/P18.jpg"
+            }
+          },
+          "product-template-details-p02-3": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "1560195612090": {
+            "type": "image_with_text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/P11.jpg",
+              "layout": "right",
+              "title": "anchor points",
+              "text": "<p>Dual anchor points for tethering and strap connection.&nbsp;The anchors can be exposed for use or tucked away when not in use.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "frontpage_text_align": "left"
+            }
+          },
+          "1560195369240": {
+            "type": "image_with_text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/P8.jpg",
+              "layout": "left",
+              "title": "Pen slot",
+              "text": "<p>Access your pen from the exterior of the wallet or from the interior. You'll always be prepared with something to write with in times of need.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "frontpage_text_align": "left"
+            }
+          },
+          "product-template-details-p02-4": {
+            "type": "image_with_text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/P13.jpg",
+              "layout": "right",
+              "title": "Multiple Pockets",
+              "text": "<p>Versatile and customizable pocket layouts. Fit up to 10 cards, cash, coins, SD cards, keys, two passports, notebooks, pens, and whatever you may need on your next journey.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "frontpage_text_align": "left"
+            }
+          },
+          "product-template-details-p02-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "1560196037869": {
+            "type": "image_with_text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/P12_855f6707-4faa-4596-8169-f6f2d8c67066.jpg",
+              "layout": "left",
+              "title": "Dango Strap",
+              "text": "<p>Included with every P02 purchase is a durable strap with metal clasps. The clasps are made of steel and has a lever for easy disengagement.&nbsp;<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "frontpage_text_align": "left"
+            }
+          },
+          "1560196297734": {
+            "type": "image_with_text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/P14.jpg",
+              "layout": "right",
+              "title": "DTEX",
+              "text": "<p>The water resistant DTEX material is scratch resistant as well and gives the wallet a rugged yet sleek feel. It's easy to clean and looks stunning.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "frontpage_text_align": "left"
+            }
+          }
+        },
+        "block_order": [
+          "product-template-details-p02-0",
+          "product-template-details-p02-1",
+          "product-template-details-p02-2",
+          "product-template-details-p02-3",
+          "1560195612090",
+          "1560195369240",
+          "product-template-details-p02-4",
+          "product-template-details-p02-5",
+          "1560196037869",
+          "1560196297734"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-template-details-coin-capsule": {
+        "type": "product-template-details-coin-capsule",
+        "blocks": {
+          "product-template-details-coin-capsule-0": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "Coin capsule",
+              "content": "<p>American coins bare a unique design&nbsp;and size that is familiar to all who use them. The Dango Coin Capsule encapsulates these&nbsp;icons&nbsp;of currency in an organized and neat manner for daily use. Rid yourself of the loose change and keep them organized and ready to deploy. Wether you are on a vending excursion or transporting collectible coins, these capsules pack a hefty load.<\/p>",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-template-details-coin-capsule-1": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-template-details-coin-capsule-2": {
+            "type": "image_gallery",
+            "settings": {
+              "product_detail_image_1": "shopify:\/\/shop_images\/coin_capsule_0008_DSC_3928.jpg",
+              "product_detail_image_2": "shopify:\/\/shop_images\/coin_capsule_0009_DSC_3927.jpg",
+              "product_detail_image_3": "shopify:\/\/shop_images\/coin_capsule_0006_DSC_3931.jpg"
+            }
+          },
+          "product-template-details-coin-capsule-3": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-template-details-coin-capsule-4": {
+            "type": "image_with_text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/coin_capsule_0051_DSC_3797.jpg",
+              "layout": "right",
+              "title": "COIN CARRY",
+              "text": "<p>CNC MACHINED ANODIZED ALUMINUM<\/p>\n<p>HOLDS: 16 QUARTERS, 10 DIMES, 7 NICKLES, AND 9 PENNIES<\/p>\n<p>BUILT-IN BELT CLIP AND TETHER ANCHOR<\/p>\n<p>MADE IN USA<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "frontpage_text_align": "left"
+            }
+          },
+          "product-template-details-coin-capsule-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          }
+        },
+        "block_order": [
+          "product-template-details-coin-capsule-0",
+          "product-template-details-coin-capsule-1",
+          "product-template-details-coin-capsule-2",
+          "product-template-details-coin-capsule-3",
+          "product-template-details-coin-capsule-4",
+          "product-template-details-coin-capsule-5"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-template-D01P": {
+        "type": "product-template-D01P",
+        "blocks": {
+          "1564537653318": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC_8493_fixi2_copy.jpg",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-template-D01P-0": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "",
+              "content": "<p>The D01 Dapper Pen Wallet is packed with functionality necessary to record and reflect on&nbsp;a moment's notice. Equipped with an anodized aluminum pen &amp; notebook, this wallet encompasses the EDC&nbsp;ethos.&nbsp;Built to hold a whole lot while keeping slim and neat.<\/p>",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-template-D01P-1": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-template-D01P-2": {
+            "type": "image_gallery",
+            "settings": {
+              "product_detail_image_1": "shopify:\/\/shop_images\/D01_PEN_0008_Layer_1.jpg",
+              "product_detail_image_2": "shopify:\/\/shop_images\/DTEX_1_0004_DSC_4290.jpg",
+              "product_detail_image_3": "shopify:\/\/shop_images\/D01_PEN_0003_DSC_4769_fixi_451b9363-d56e-4430-a090-6c0960e04e6a.jpg"
+            }
+          },
+          "product-template-D01P-3": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-template-D01P-4": {
+            "type": "image_with_text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D01_PEN_0006_DSC_4744_fixi.jpg",
+              "layout": "right",
+              "title": "scribe Right",
+              "text": "<p>Never be without a pen.&nbsp;You can draw, write &amp; scribble all the&nbsp;bits you need to spark your next endeavor. The 48 page notebook coupled with the Dango Pen&nbsp;is&nbsp;dapperly encased within the D01 form factor making it one of the most iconic wallet pens designed &amp; built in USA.<\/p>",
+              "button_label": "shop now",
+              "button_link": "shopify:\/\/products\/d01-dapper-pen-wallet",
+              "frontpage_text_align": "left"
+            }
+          },
+          "product-template-D01P-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          }
+        },
+        "block_order": [
+          "1564537653318",
+          "product-template-D01P-0",
+          "product-template-D01P-1",
+          "product-template-D01P-2",
+          "product-template-D01P-3",
+          "product-template-D01P-4",
+          "product-template-D01P-5"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-template-CR01-METAL": {
+        "type": "product-template-CR01-METAL",
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-template-DV01-METAL": {
+        "type": "product-template-DV01-METAL",
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-template-TK01-LEATHER": {
+        "type": "product-template-TK01-LEATHER",
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-template-CR01-LEATHER": {
+        "type": "product-template-CR01-LEATHER",
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-template-DV01-SPORT": {
+        "type": "product-template-DV01-SPORT",
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-template-TK01-NATO": {
+        "type": "product-template-TK01-NATO",
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "collection-sub-collections-template": {
+        "type": "collection-sub-collections-template",
+        "settings": {
+          "collections_per_row": 3,
+          "products_per_row": 3,
+          "pagination_limit": 24,
+          "collection_sort": false,
+          "toggle": false
+        }
+      },
+      "product-template-rail-wallet": {
+        "type": "product-template-rail-wallet",
+        "blocks": {
+          "product-template-rail-wallet-1": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "1570496730253": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/M1_RAILWALLET-02.png",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-template-rail-wallet-3": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "1570686286772": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m1rail.gif",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-template-rail-wallet-4": {
+            "type": "image_with_text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/M1_RAIL_0004_DSC_6064_fixi.jpg",
+              "layout": "right",
+              "title": "Slide",
+              "text": "<p>Load and unload cards with a simple slide action. Identify yourself with a protective card case that radiates sleekness and functionality.<\/p>",
+              "button_label": "Buy NOW",
+              "button_link": "https:\/\/www.dangoproducts.com\/products\/m1-maverick-rail-wallet",
+              "frontpage_text_align": "left"
+            }
+          },
+          "product-template-rail-wallet-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-template-rail-wallet-2": {
+            "type": "image_gallery",
+            "settings": {
+              "product_detail_image_1": "shopify:\/\/shop_images\/more_Rails_0000_DSC_6610.jpg",
+              "product_detail_image_2": "shopify:\/\/shop_images\/more_Rails_0006_DSC_6382_fixi.jpg",
+              "product_detail_image_3": "shopify:\/\/shop_images\/more_Rails_0003_DSC_6602_3db4deaf-cee4-4459-a59a-f8799bd00c70.jpg"
+            }
+          },
+          "1570496499000": {
+            "type": "image_gallery",
+            "settings": {
+              "product_detail_image_1": "shopify:\/\/shop_images\/M1_RAIL_0009_DSC_6533.jpg",
+              "product_detail_image_2": "shopify:\/\/shop_images\/M1_RAIL_0008_DSC_6540.jpg",
+              "product_detail_image_3": "shopify:\/\/shop_images\/M1_RAIL_0010_DSC_6530.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "product-template-rail-wallet-1",
+          "1570496730253",
+          "product-template-rail-wallet-3",
+          "1570686286772",
+          "product-template-rail-wallet-4",
+          "product-template-rail-wallet-5",
+          "product-template-rail-wallet-2",
+          "1570496499000"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-template-M1-TITANIUM": {
+        "type": "product-template-M1-TITANIUM",
+        "blocks": {
+          "product-template-M1-TITANIUM-0": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/M1_TITANIUM_DETAILS-01.png",
+              "title": "M1 MAVERICK TITANIUM WALLET",
+              "content": "<p>Cutting edge manufacturing techniques, premium materials & contemporary industrial design are key ingredients to the Dango culture. The M1 Titanium wallet embodies this vision and manifests itself in an everyday, functional carry. <\/p>",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1571162472411": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/M1_TITANIUM_DETAILS-02.png",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-template-M1-TITANIUM-2": {
+            "type": "image_gallery",
+            "settings": {
+              "product_detail_image_1": "shopify:\/\/shop_images\/M1_titanium_0006_DSC_6184_fixi.jpg",
+              "product_detail_image_2": "shopify:\/\/shop_images\/M1_titanium_0001_DSC_6007_fixi.jpg",
+              "product_detail_image_3": "shopify:\/\/shop_images\/M1_titanium_0026_DSC_5980.jpg"
+            }
+          },
+          "product-template-M1-TITANIUM-3": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-template-M1-TITANIUM-4": {
+            "type": "image_with_text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/M1_titanium_0024_DSC_5986_fixi.jpg",
+              "layout": "right",
+              "title": "TACTICAL",
+              "text": "<p>The M1 Titanium wallet comes equipped with the MT04 Multi-Tool. Available in both bifold and single pocket versions. <\/p>",
+              "button_label": "TITANIUM",
+              "button_link": "https:\/\/www.dangoproducts.com\/collections\/titanium-wallets",
+              "frontpage_text_align": "left"
+            }
+          },
+          "product-template-M1-TITANIUM-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          }
+        },
+        "block_order": [
+          "product-template-M1-TITANIUM-0",
+          "1571162472411",
+          "product-template-M1-TITANIUM-2",
+          "product-template-M1-TITANIUM-3",
+          "product-template-M1-TITANIUM-4",
+          "product-template-M1-TITANIUM-5"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-template-s1-details3": {
+        "type": "product-template-s1-details3",
+        "blocks": {
+          "product-template-s1-details3-0": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/S1_phone_case_details-01.png",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-template-s1-details3-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          }
+        },
+        "block_order": [
+          "product-template-s1-details3-0",
+          "product-template-s1-details3-5"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-template-R-SPEC": {
+        "type": "product-template-R-SPEC",
+        "blocks": {
+          "product-template-R-SPEC-0": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/RSPEC_DETAILS_WHITE-01.png",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-template-R-SPEC-1": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-template-R-SPEC-3": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          }
+        },
+        "block_order": [
+          "product-template-R-SPEC-0",
+          "product-template-R-SPEC-1",
+          "product-template-R-SPEC-3"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "product-template-goldfinger": {
+        "type": "product-template-goldfinger",
+        "blocks": {
+          "1574291962396": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Untitled-14-05.jpg",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": "https:\/\/www.dangoproducts.com\/products\/d007-goldfinger-limited-edition-pen-wallet"
+            }
+          },
+          "product-template-goldfinger-0": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/header_image_details-04_e3757d59-f46f-4b30-b655-cc03db16bb9b.jpg",
+              "title": "",
+              "content": "<p>The D007 GOLDFINGER Limited Edition Pen Wallet primes you for the next mission. Always be equipped with the best from Dango.<\/p>",
+              "text_alignment": "center",
+              "button_label": "SHOP NOW",
+              "button_link": "https:\/\/nt9cmg4dju7bd4xh-19813079.shopifypreview.com\/collections\/all\/products\/d007-goldfinger-limited-edition-pen-wallet"
+            }
+          },
+          "product-template-goldfinger-1": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "1574295133797": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC_7695_fixi_small_0b454dfc-0f27-409b-a4be-3c82ca2090ca.jpg",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-template-goldfinger-2": {
+            "type": "image_gallery",
+            "settings": {
+              "product_detail_image_1": "shopify:\/\/shop_images\/D01_PEN_0000_DSC_4798_fixi_0003_DSC_76730_fixi.jpg",
+              "product_detail_image_2": "shopify:\/\/shop_images\/D01_PEN_0000_DSC_4798_fixi_0001_DSC_7681_fixi.jpg",
+              "product_detail_image_3": "shopify:\/\/shop_images\/D01_PEN_0000_DSC_4798_fixi_0002_DSC_7689_fixi.jpg"
+            }
+          },
+          "product-template-goldfinger-3": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-template-goldfinger-4": {
+            "type": "image_with_text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D01_PEN_0000_DSC_4798_fixi_0010_DSC_7638_fixi_copy.jpg",
+              "layout": "right",
+              "title": "The Gold Standard",
+              "text": "<p>High polished gold anodized aluminum wallet frame, back plate &amp; pen, genuine black leather, mil-spec bolts, durable silicone wallet band and a 48 page dot gridded notebook.<\/p>",
+              "button_label": "shop now",
+              "button_link": "https:\/\/www.dangoproducts.com\/products\/d007-goldfinger-limited-edition-pen-wallet",
+              "frontpage_text_align": "left"
+            }
+          },
+          "1574294005589": {
+            "type": "image_with_text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/GOLDFINGER_fixi.jpg",
+              "layout": "left",
+              "title": "MIGHTIER",
+              "text": "<p>High polished gold anodized aluminum cap and barrel. Space ink included&nbsp;with zero gravity pressurized ink.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "frontpage_text_align": "left"
+            }
+          }
+        },
+        "block_order": [
+          "1574291962396",
+          "product-template-goldfinger-0",
+          "product-template-goldfinger-1",
+          "1574295133797",
+          "product-template-goldfinger-2",
+          "product-template-goldfinger-3",
+          "product-template-goldfinger-4",
+          "1574294005589"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "1578076058170": {
+        "type": "collection-list",
+        "blocks": {
+          "1597875804214": {
+            "type": "collection",
+            "settings": {
+              "feature_collection": "modular"
+            }
+          },
+          "8d980b93-d9f7-42b1-ac40-0e0266ddb653": {
+            "type": "collection",
+            "settings": {
+              "feature_collection": "tactical"
+            }
+          },
+          "1578076058170-0": {
+            "type": "collection",
+            "settings": {
+              "feature_collection": "classic"
+            }
+          },
+          "304277b4-0b10-4398-9dc3-74050bf71c4e": {
+            "type": "collection",
+            "settings": {
+              "feature_collection": "travel"
+            }
+          }
+        },
+        "block_order": [
+          "1597875804214",
+          "8d980b93-d9f7-42b1-ac40-0e0266ddb653",
+          "1578076058170-0",
+          "304277b4-0b10-4398-9dc3-74050bf71c4e"
+        ],
+        "settings": {
+          "title": "DISCOVER YOUR NEXT WALLET",
+          "frontpage_collections_per_row": 4,
+          "frontpage_collections_title": false,
+          "collection_count": false
+        }
+      },
+      "product-template-a10-details": {
+        "type": "product-template-a10-details",
+        "blocks": {
+          "product-template-a10-details-0": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/A10_DETAILSt-03.jpg",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1594803531223": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/A10_SINGLE.gif",
+              "title": "A10 ADAPT WALLETS",
+              "content": "<p>This wallet is truly one-of-a-kind with the Dango rail system that allows you to quickly interchange between pocket adapters, accessories, and cards. The rail system also doubles as an open ID window for displaying identification, badges, and any cards that need scanning. As with all of our wallets, the A10 is Made in USA with top quality materials.<\/p>",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1594803785630": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/A10_DETAILSt-04.jpg",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "product-template-a10-details-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "1594889324076": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC_1067.gif",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "product-template-a10-details-0",
+          "1594803531223",
+          "1594803785630",
+          "product-template-a10-details-5",
+          "1594889324076"
+        ],
+        "settings": {
+          "product_breadcrumb": true,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "3",
+          "related_products_position": "below"
+        }
+      },
+      "product-template-p01-dtex-details": {
+        "type": "product-template-p01-dtex-details",
+        "blocks": {
+          "product-template-p01-dtex-details-0": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/P01_DTEX_NO_PEN_shallow_2_caedcb57-fe36-44cc-b44b-adadeb0436d2.jpg",
+              "title": "P01 PIONEER TRAVEL WALLET",
+              "content": "<p>The P01&nbsp;Pioneer Travel Wallet&nbsp;continues to traverse the landscape with its&nbsp;ability to carry and secure a wide range of everyday essentials. Equipped with a pen pocket,&nbsp;zipper pouch, D-ring attachment point, MT01 multi-tool clasp, DTEX material cash strap, multiple card pockets &amp; an open ID pocket window, the P01 packs a bunch including the ability to secure a passport.<\/p>",
+              "text_alignment": "center",
+              "button_label": "BUY NOW",
+              "button_link": "https:\/\/www.dangoproducts.com\/collections\/all\/products\/p01-pioneer-travel-wallet-wallet-only"
+            }
+          },
+          "product-template-p01-dtex-details-1": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-template-p01-dtex-details-2": {
+            "type": "image_gallery",
+            "settings": {
+              "product_detail_image_1": "shopify:\/\/shop_images\/P01_DTEX_NO_PEN_0002_DSC_1724.jpg",
+              "product_detail_image_2": "shopify:\/\/shop_images\/P01_DTEX_NO_PEN_0001_DTEX.jpg",
+              "product_detail_image_3": "shopify:\/\/shop_images\/P01_DTEX_NO_PEN_0007_DSC_1722.jpg"
+            }
+          },
+          "product-template-p01-dtex-details-3": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "product-template-p01-dtex-details-4": {
+            "type": "image_with_text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/P01_DTEX_72_0050_DSC_1298_fixi_6862f141-cb93-4b26-b7d8-34e128be0d7d.jpg",
+              "layout": "right",
+              "title": "Journey",
+              "text": "<p>Wherever you are on the planet, the P01 Pioneer Travel Wallet packs it in and keeps you prepared and ready. DTEX material keeps your content protected and accessible. Fine tune your EDC and keep exploring the many ways to carry.<\/p>",
+              "button_label": "BUY NOW",
+              "button_link": "https:\/\/www.dangoproducts.com\/collections\/all\/products\/p01-pioneer-travel-wallet-with-pen",
+              "frontpage_text_align": "left"
+            }
+          },
+          "product-template-p01-dtex-details-5": {
+            "type": "divider",
+            "settings": {
+              "divider_border": false
+            }
+          },
+          "1601602931970": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/P01_DTEX_72_0006_DSC_1528_1d5c53b5-d4b8-4220-8334-3c17a05f61a1.jpg",
+              "title": "",
+              "content": "",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "product-template-p01-dtex-details-0",
+          "product-template-p01-dtex-details-1",
+          "product-template-p01-dtex-details-2",
+          "product-template-p01-dtex-details-3",
+          "product-template-p01-dtex-details-4",
+          "product-template-p01-dtex-details-5",
+          "1601602931970"
+        ],
+        "settings": {
+          "product_breadcrumb": true,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_collections": false,
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "1622666899241e6215": {
+        "type": "collection-list",
+        "blocks": {
+          "a33cfa2e-19fd-4a59-8b1d-f2427149504c": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "feature_collection": "vday-gift-guide",
+              "image": "shopify:\/\/shop_images\/VDAY_BUCKET-01_6f5162ac-a494-4feb-a8f4-3e559330c0f6.jpg"
+            }
+          },
+          "f9b1a1ad-07de-4ca6-9b88-5c49ad8bca7f": {
+            "type": "collection",
+            "settings": {
+              "feature_collection": "sale",
+              "image": "shopify:\/\/shop_images\/SPRING_BUCKET-03.jpg"
+            }
+          },
+          "1622666899241e6215-1": {
+            "type": "collection",
+            "settings": {
+              "feature_collection": "best-sellers"
+            }
+          },
+          "418d53f3-dad8-4ee1-a77f-051e04d12cb0": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "feature_collection": "presidents-day-gift-guide",
+              "image": "shopify:\/\/shop_images\/PRESIDENTS_DAY_SALE_BUCKET-01.jpg"
+            }
+          },
+          "1622666899241e6215-2": {
+            "type": "collection",
+            "settings": {
+              "feature_collection": "latest-release"
+            }
+          },
+          "29c93c77-56d2-46ce-9be6-62e4aceb9186": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "feature_collection": "st-patricks-sale",
+              "image": "shopify:\/\/shop_images\/ST_pattys_CAROUSEL-01_bb888773-8dff-4486-b0d5-cb8361060f20.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "a33cfa2e-19fd-4a59-8b1d-f2427149504c",
+          "f9b1a1ad-07de-4ca6-9b88-5c49ad8bca7f",
+          "1622666899241e6215-1",
+          "418d53f3-dad8-4ee1-a77f-051e04d12cb0",
+          "1622666899241e6215-2",
+          "29c93c77-56d2-46ce-9be6-62e4aceb9186"
+        ],
+        "settings": {
+          "title": "",
+          "frontpage_collections_per_row": 3,
+          "frontpage_collections_title": false,
+          "collection_count": false
+        }
+      },
+      "16227449289099b2c9": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "Featured Bundles",
+          "frontpage_collection": "featured-bundles",
+          "frontpage_products_limit": 12
+        }
+      },
+      "1623220529811636de": {
+        "type": "featured-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/t01_spec_ops_BF.jpg",
+          "title": "T01 SPEC-OPS BIFOLD WALLETS",
+          "show_divider": true,
+          "content": "<p>Durable DTEX & CERAKOTE finish<strong> $<\/strong><em><strong>109<\/strong><\/em><\/p>",
+          "button_label": "buy now",
+          "button_link": "https:\/\/www.dangoproducts.com\/collections\/st-patricks-sale\/products\/t01-tactical-bifold-wallet-spec-ops",
+          "text_size": "regular_text",
+          "text_alignment": "center"
+        }
+      },
+      "16455193333247097d": {
+        "type": "featured-text",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/D03_feature_S1_square.jpg",
+          "title": "SALE ENDS TONIGHT!",
+          "show_divider": true,
+          "content": "<p>S1 STEALTH WALLET - <strong>$20 <\/strong><em>(REG. $35)<\/em><\/p>",
+          "button_label": "BUY NOW",
+          "button_link": "shopify:\/\/products\/s1",
+          "text_size": "regular_text",
+          "text_alignment": "center"
+        }
+      },
+      "16479311457575ee94": {
+        "type": "featured-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/watches_b921fb5e-418a-4bcf-8541-1f3187dd6463.jpg",
+          "title": "EXPERIENCE DANGO TIME MACHINES",
+          "show_divider": true,
+          "content": "",
+          "button_label": "SHOP WATCHES",
+          "button_link": "shopify:\/\/collections\/dango-watches",
+          "text_size": "featured_text",
+          "text_alignment": "center"
+        }
+      }
+    },
+    "content_for_index": [
+      "1500158055046",
+      "1623220529811636de",
+      "1622666899241e6215",
+      "16479311457575ee94",
+      "1578076058170",
+      "16455193333247097d",
+      "1482978263392",
+      "16227449289099b2c9",
+      "1500162781708"
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "wrapper": "div.index-sections",
+  "sections": {
+    "image-with-text-1": {
+      "type": "image-with-text-overlay-section",
+      "settings": {
+        "headline_animation": "animate_down",
+        "title": "Parallax Shopify Theme",
+        "subtitle": "",
+        "homepage_arrow": true,
+        "parallax_image_height": 600
+      }
+    },
+    "promotions": {
+      "type": "featured-promotions",
+      "blocks": {
+        "promo-block-0": {
+          "type": "image",
+          "settings": {
+            "title": "Promotion",
+            "text": "<p>This is a featured promotion block, add some text here to talk about your promotion.<\/p>"
+          }
+        },
+        "promo-block-1": {
+          "type": "image",
+          "settings": {
+            "title": "Promotion",
+            "text": "<p>This is a featured promotion block, add some text here to talk about your promotion.<\/p>"
+          }
+        },
+        "promo-block-2": {
+          "type": "image",
+          "settings": {
+            "title": "Promotion",
+            "text": "<p>This is a featured promotion block, add some text here to talk about your promotion.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "promo-block-0",
+        "promo-block-1",
+        "promo-block-2"
+      ],
+      "settings": {
+        "featured_promos_per_row": 3,
+        "featured_links_style": "animate_down"
+      }
+    },
+    "image-with-text-2": {
+      "type": "image-with-text-overlay-section",
+      "settings": {
+        "headline_animation": "animate_down",
+        "title": "Your headline here",
+        "subtitle": "<p>This is a short subheading for your banner image<\/p>",
+        "homepage_arrow": false,
+        "parallax_image_height": 600
+      }
+    },
+    "rich-text": {
+      "type": "featured-text",
+      "settings": {
+        "title": "Talk about your brand",
+        "show_divider": true,
+        "content": "<p>Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text_size": "featured_text",
+        "text_alignment": "center"
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "frontpage_products_limit": 12
+      }
+    },
+    "blog-posts": {
+      "type": "featured-blog",
+      "settings": {
+        "title": "Blog posts",
+        "home_page_articles": 3,
+        "blog_tags": false,
+        "blog_author": false,
+        "blog_date": true,
+        "blog_comment_count": true,
+        "read_more_link": true
+      }
+    }
+  },
+  "order": [
+    "image-with-text-1",
+    "promotions",
+    "image-with-text-2",
+    "rich-text",
+    "featured-collection",
+    "blog-posts"
+  ]
+}

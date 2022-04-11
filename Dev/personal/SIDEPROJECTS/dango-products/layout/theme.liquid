@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html class="no-js no-touch" lang="{{ request.locale.iso_code }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="robots" content="index,follow">
+    
+    <!-- NEW start -->
+    <meta name="facebook-domain-verification" content="87sb0yp3z9zapco89nm97bqiasc0u5" />
+    <meta name="facebook-domain-verification" content="63xp4ipuyyefi0o5wgqpp7r4st1e3a" />
+    <!-- NEW end -->
+    
+    {% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %}{% endif %}
+    <title>{% if template contains "index" %}{{ page_title }}{% else %}{{ page_title }}{% if current_tags %} {{ 'general.meta.tagged_html' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} {{ 'general.meta.page' | t: page_number: current_page }}{% endif %}{% unless page_title contains shop.name %} - {{ shop.name }}{% endunless %}{% endif %}</title>
+
+    {% if page_description %}
+      <meta name="description" content="{{ page_description | escape }}{% if current_tags %} {{ 'general.meta.tagged_html' | t: tags: meta_tags | escape }}.{% endif %}{% if current_page != 1 %} {{ 'general.meta.page' | t: page_number: current_page }}.{% endif %}"/>
+    {% endif %}
+
+    {% render 'social-meta-info' %}
+
+    {% if collection.previous_product %}
+      <link rel="prev" href="{{ collection.previous_product }}">
+    {% endif %}
+
+    {% if collection.next_product %}
+      <link rel="next" href="{{ collection.next_product }}">
+    {% endif %}
+
+    <!-- Mobile Specific Metas -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="{{ settings.shop_bg_color }}">
+
+    <!-- Preconnect Domains -->
+    <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.shopify.com" crossorigin>
+    <link rel="preconnect" href="https://monorail-edge.shopifysvc.com">
+
+    <!-- Preload Assets -->
+    <link rel="preload" href="{{ 'vendors.js' | asset_url }}" as="script">
+    <link rel="preload" href="{{ 'mmenu-styles.scss' | asset_url }}" as="style">
+    <link rel="preload" href="{{ 'fancybox.css' | asset_url }}" as="style">
+    <link rel="preload" href="{{ 'styles.css' | asset_url }}" as="style">
+    <link rel="preload" href="{{ 'app.js' | asset_url }}" as="script">
+
+    <!-- Stylesheet for mmenu plugin -->
+    {{ 'mmenu-styles.scss' | asset_url | stylesheet_tag }}
+
+    <!-- Stylesheet for Fancybox library -->
+    {{ 'fancybox.css' | asset_url | stylesheet_tag }}
+
+    <!-- Stylesheets for Parallax -->
+    {{ 'styles.css' | asset_url | stylesheet_tag }}
+
+    <!-- NEW start -->
+    <!--[if lte IE 8]>
+      {{ 'ie.css' | asset_url | stylesheet_tag }}
+    <![endif]-->
+    <!-- NEW end -->
+    
+    {% if settings.favicon != nil %}
+      <link rel="shortcut icon" type="image/x-icon" href="{{ settings.favicon | img_url: '180x180' }}">
+      <link rel="apple-touch-icon" href="{{ settings.favicon | img_url: '180x180' }}"/>
+      <link rel="apple-touch-icon" sizes="72x72" href="{{ settings.favicon | img_url: '72x72' }}"/>
+      <link rel="apple-touch-icon" sizes="114x114" href="{{ settings.favicon | img_url: '114x114' }}"/>
+      <link rel="apple-touch-icon" sizes="180x180" href="{{ settings.favicon | img_url: '180x180' }}"/>
+      <link rel="apple-touch-icon" sizes="228x228" href="{{ settings.favicon | img_url: '228x228' }}"/>
+    {% else %}
+      <link rel="shortcut icon" type="image/x-icon" href="{{ 'favicon.png' | asset_url }}">
+    {% endif %}
+
+    <link rel="canonical" href="{{ canonical_url }}"/>
+
+    <script>
+      document.documentElement.className=document.documentElement.className.replace(/\bno-js\b/,'js');
+      if(window.Shopify&&window.Shopify.designMode)document.documentElement.className+=' in-theme-editor';
+      if(('ontouchstart' in window)||window.DocumentTouch&&document instanceof DocumentTouch)document.documentElement.className=document.documentElement.className.replace(/\bno-touch\b/,'has-touch');
+    </script>
+
+    {% if settings.show_shipping_calculator %}
+      <script src="{{ '/services/javascripts/countries.js' }}" defer></script>
+    {% endif %}
+
+    {% comment %}Inject theme-object begin{% endcomment %}
+    <script>
+      window.PXUTheme = window.PXUTheme || {};
+      window.PXUTheme.version = '5.0.1';
+      window.PXUTheme.name = 'Parallax';
+    </script>
+    {% comment %}Inject theme-object end{% endcomment %}
+
+
+    <script>
+      {% render 'js-variables' %}
+    </script>
+
+    <script src="{{ 'vendors.js' | asset_url }}" defer></script>
+    <script src="{{ 'app.js' | asset_url }}" defer></script>
+
+    {{ content_for_header }}
+
+    <!-- NEW start -->
+    <!-- lazysizes - v5.2.0-beta1 -->
+  	<script>!function(a,b){var c=b(a,a.document);a.lazySizes=c,"object"==typeof module&&module.exports&&(module.exports=c)}("undefined"!=typeof window?window:{},function(a,b){"use strict";var c,d;if(function(){var b,c={lazyClass:"lazyload",loadedClass:"lazyloaded",loadingClass:"lazyloading",preloadClass:"lazypreload",errorClass:"lazyerror",autosizesClass:"lazyautosizes",srcAttr:"data-src",srcsetAttr:"data-srcset",sizesAttr:"data-sizes",minSize:40,customMedia:{},init:!0,expFactor:1.5,hFac:.8,loadMode:2,loadHidden:!0,ricTimeout:0,throttleDelay:125};d=a.lazySizesConfig||a.lazysizesConfig||{};for(b in c)b in d||(d[b]=c[b])}(),!b||!b.getElementsByClassName)return{init:function(){},cfg:d,noSupport:!0};var e=b.documentElement,f=a.Date,g=a.HTMLPictureElement,h="addEventListener",i="getAttribute",j=a[h],k=a.setTimeout,l=a.requestAnimationFrame||k,m=a.requestIdleCallback,n=/^picture$/i,o=["load","error","lazyincluded","_lazyloaded"],p={},q=Array.prototype.forEach,r=function(a,b){return p[b]||(p[b]=new RegExp("(\\s|^)"+b+"(\\s|$)")),p[b].test(a[i]("class")||"")&&p[b]},s=function(a,b){r(a,b)||a.setAttribute("class",(a[i]("class")||"").trim()+" "+b)},t=function(a,b){var c;(c=r(a,b))&&a.setAttribute("class",(a[i]("class")||"").replace(c," "))},u=function(a,b,c){var d=c?h:"removeEventListener";c&&u(a,b),o.forEach(function(c){a[d](c,b)})},v=function(a,d,e,f,g){var h=b.createEvent("Event");return e||(e={}),e.instance=c,h.initEvent(d,!f,!g),h.detail=e,a.dispatchEvent(h),h},w=function(b,c){var e;!g&&(e=a.picturefill||d.pf)?(c&&c.src&&!b[i]("srcset")&&b.setAttribute("srcset",c.src),e({reevaluate:!0,elements:[b]})):c&&c.src&&(b.src=c.src)},x=function(a,b){return(getComputedStyle(a,null)||{})[b]},y=function(a,b,c){for(c=c||a.offsetWidth;c<d.minSize&&b&&!a._lazysizesWidth;)c=b.offsetWidth,b=b.parentNode;return c},z=function(){var a,c,d=[],e=[],f=d,g=function(){var b=f;for(f=d.length?e:d,a=!0,c=!1;b.length;)b.shift()();a=!1},h=function(d,e){a&&!e?d.apply(this,arguments):(f.push(d),c||(c=!0,(b.hidden?k:l)(g)))};return h._lsFlush=g,h}(),A=function(a,b){return b?function(){z(a)}:function(){var b=this,c=arguments;z(function(){a.apply(b,c)})}},B=function(a){var b,c=0,e=d.throttleDelay,g=d.ricTimeout,h=function(){b=!1,c=f.now(),a()},i=m&&g>49?function(){m(h,{timeout:g}),g!==d.ricTimeout&&(g=d.ricTimeout)}:A(function(){k(h)},!0);return function(a){var d;(a=!0===a)&&(g=33),b||(b=!0,d=e-(f.now()-c),d<0&&(d=0),a||d<9?i():k(i,d))}},C=function(a){var b,c,d=99,e=function(){b=null,a()},g=function(){var a=f.now()-c;a<d?k(g,d-a):(m||e)(e)};return function(){c=f.now(),b||(b=k(g,d))}},D=function(){var g,m,o,p,y,D,F,G,H,I,J,K,L=/^img$/i,M=/^iframe$/i,N="onscroll"in a&&!/(gle|ing)bot/.test(navigator.userAgent),O=0,P=0,Q=0,R=-1,S=function(a){Q--,(!a||Q<0||!a.target)&&(Q=0)},T=function(a){return null==K&&(K="hidden"==x(b.body,"visibility")),K||!("hidden"==x(a.parentNode,"visibility")&&"hidden"==x(a,"visibility"))},U=function(a,c){var d,f=a,g=T(a);for(G-=c,J+=c,H-=c,I+=c;g&&(f=f.offsetParent)&&f!=b.body&&f!=e;)(g=(x(f,"opacity")||1)>0)&&"visible"!=x(f,"overflow")&&(d=f.getBoundingClientRect(),g=I>d.left&&H<d.right&&J>d.top-1&&G<d.bottom+1);return g},V=function(){var a,f,h,j,k,l,n,o,q,r,s,t,u=c.elements;if((p=d.loadMode)&&Q<8&&(a=u.length)){for(f=0,R++;f<a;f++)if(u[f]&&!u[f]._lazyRace)if(!N||c.prematureUnveil&&c.prematureUnveil(u[f]))ba(u[f]);else if((o=u[f][i]("data-expand"))&&(l=1*o)||(l=P),r||(r=!d.expand||d.expand<1?e.clientHeight>500&&e.clientWidth>500?500:370:d.expand,c._defEx=r,s=r*d.expFactor,t=d.hFac,K=null,P<s&&Q<1&&R>2&&p>2&&!b.hidden?(P=s,R=0):P=p>1&&R>1&&Q<6?r:O),q!==l&&(D=innerWidth+l*t,F=innerHeight+l,n=-1*l,q=l),h=u[f].getBoundingClientRect(),(J=h.bottom)>=n&&(G=h.top)<=F&&(I=h.right)>=n*t&&(H=h.left)<=D&&(J||I||H||G)&&(d.loadHidden||T(u[f]))&&(m&&Q<3&&!o&&(p<3||R<4)||U(u[f],l))){if(ba(u[f]),k=!0,Q>9)break}else!k&&m&&!j&&Q<4&&R<4&&p>2&&(g[0]||d.preloadAfterLoad)&&(g[0]||!o&&(J||I||H||G||"auto"!=u[f][i](d.sizesAttr)))&&(j=g[0]||u[f]);j&&!k&&ba(j)}},W=B(V),X=function(a){var b=a.target;if(b._lazyCache)return void delete b._lazyCache;S(a),s(b,d.loadedClass),t(b,d.loadingClass),u(b,Z),v(b,"lazyloaded")},Y=A(X),Z=function(a){Y({target:a.target})},$=function(a,b){try{a.contentWindow.location.replace(b)}catch(c){a.src=b}},_=function(a){var b,c=a[i](d.srcsetAttr);(b=d.customMedia[a[i]("data-media")||a[i]("media")])&&a.setAttribute("media",b),c&&a.setAttribute("srcset",c)},aa=A(function(a,b,c,e,f){var g,h,j,l,m,p;(m=v(a,"lazybeforeunveil",b)).defaultPrevented||(e&&(c?s(a,d.autosizesClass):a.setAttribute("sizes",e)),h=a[i](d.srcsetAttr),g=a[i](d.srcAttr),f&&(j=a.parentNode,l=j&&n.test(j.nodeName||"")),p=b.firesLoad||"src"in a&&(h||g||l),m={target:a},s(a,d.loadingClass),p&&(clearTimeout(o),o=k(S,2500),u(a,Z,!0)),l&&q.call(j.getElementsByTagName("source"),_),h?a.setAttribute("srcset",h):g&&!l&&(M.test(a.nodeName)?$(a,g):a.src=g),f&&(h||l)&&w(a,{src:g})),a._lazyRace&&delete a._lazyRace,t(a,d.lazyClass),z(function(){var b=a.complete&&a.naturalWidth>1;p&&!b||(b&&s(a,"ls-is-cached"),X(m),a._lazyCache=!0,k(function(){"_lazyCache"in a&&delete a._lazyCache},9)),"lazy"==a.loading&&Q--},!0)}),ba=function(a){if(!a._lazyRace){var b,c=L.test(a.nodeName),e=c&&(a[i](d.sizesAttr)||a[i]("sizes")),f="auto"==e;(!f&&m||!c||!a[i]("src")&&!a.srcset||a.complete||r(a,d.errorClass)||!r(a,d.lazyClass))&&(b=v(a,"lazyunveilread").detail,f&&E.updateElem(a,!0,a.offsetWidth),a._lazyRace=!0,Q++,aa(a,b,f,e,c))}},ca=C(function(){d.loadMode=3,W()}),da=function(){3==d.loadMode&&(d.loadMode=2),ca()},ea=function(){if(!m){if(f.now()-y<999)return void k(ea,999);m=!0,d.loadMode=3,W(),j("scroll",da,!0)}};return{_:function(){y=f.now(),c.elements=b.getElementsByClassName(d.lazyClass),g=b.getElementsByClassName(d.lazyClass+" "+d.preloadClass),j("scroll",W,!0),j("resize",W,!0),j("pageshow",function(a){if(a.persisted){var c=b.querySelectorAll("."+d.loadingClass);c.length&&c.forEach&&l(function(){c.forEach(function(a){a.complete&&ba(a)})})}}),a.MutationObserver?new MutationObserver(W).observe(e,{childList:!0,subtree:!0,attributes:!0}):(e[h]("DOMNodeInserted",W,!0),e[h]("DOMAttrModified",W,!0),setInterval(W,999)),j("hashchange",W,!0),["focus","mouseover","click","load","transitionend","animationend"].forEach(function(a){b[h](a,W,!0)}),/d$|^c/.test(b.readyState)?ea():(j("load",ea),b[h]("DOMContentLoaded",W),k(ea,2e4)),c.elements.length?(V(),z._lsFlush()):W()},checkElems:W,unveil:ba,_aLSL:da}}(),E=function(){var a,c=A(function(a,b,c,d){var e,f,g;if(a._lazysizesWidth=d,d+="px",a.setAttribute("sizes",d),n.test(b.nodeName||""))for(e=b.getElementsByTagName("source"),f=0,g=e.length;f<g;f++)e[f].setAttribute("sizes",d);c.detail.dataAttr||w(a,c.detail)}),e=function(a,b,d){var e,f=a.parentNode;f&&(d=y(a,f,d),e=v(a,"lazybeforesizes",{width:d,dataAttr:!!b}),e.defaultPrevented||(d=e.detail.width)&&d!==a._lazysizesWidth&&c(a,f,e,d))},f=function(){var b,c=a.length;if(c)for(b=0;b<c;b++)e(a[b])},g=C(f);return{_:function(){a=b.getElementsByClassName(d.autosizesClass),j("resize",g)},checkElems:g,updateElem:e}}(),F=function(){!F.i&&b.getElementsByClassName&&(F.i=!0,E._(),D._())};return k(function(){d.init&&F()}),c={cfg:d,autoSizer:E,loader:D,init:F,uP:w,aC:s,rC:t,hC:r,fire:v,gW:y,rAF:z}});</script>
+    <!-- END lazysizes - v5.2.0-beta1 -->
+
+    {% include 'bold-common' %}
+
+    <meta name="google-site-verification" content="u6oGMo3Ikhn157BZeDkIbQcrXgYQvhN9mq4XHCghE0M" />
+    <meta name="google-site-verification" content="rbcapYTqvM3Y37NJwhr8naPPuBjttgGg0hk0W8jP2Do" />
+
+    <!-- START Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-YJK7MR7XEZ"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+  		gtag('config', 'G-YJK7MR7XEZ');
+	</script>
+    <!-- END Global site tag (gtag.js) - Google Analytics -->
+
+    
+    <!-- START Rakuten Marketing Tracking -->
+    <script type="text/javascript">
+      (function (url) {
+        /*Tracking Bootstrap - Set Up DataLayer objects/properties here*/
+        if(!window.DataLayer){
+          window.DataLayer = {};
+        }
+        if(!DataLayer.events){
+          DataLayer.events = {};
+        }
+        DataLayer.events.SPIVersion = DataLayer.events.SPIVersion || '3.2';
+        DataLayer.events.SiteSection = '1';
+
+        var loc, ct = document.createElement('script'); ct.type = 'text/javascript';
+        ct.async = true; ct.src = url; loc = document.getElementsByTagName('script')[0];
+        loc.parentNode.insertBefore(ct, loc);
+      }(document.location.protocol + '//intljs.rmtag.com/114994.ct.js'));
+    </script>
+    <!-- END Rakuten Marketing Tracking -->
+    
+    <!-- START Yieldify Performance Tracking -->
+    <script>(function(d){var e=d.createElement('script');e.src='https://td.yieldify.com/yieldify/code.js?w_uuid=6dc84eeb-42e7-4b85-abfc-e212b9656c3c&k=1&loca='+window.location.href;e.async=true;d.getElementsByTagName('head')[0].appendChild(e);}(document));</script>
+    <!-- END Yieldify Performance Tracking -->
+
+    <!-- START LiveConnectTag for advertisers -->
+    <script type="text/javascript" src="//b-code.liadm.com/a-06lg.min.js" async="true" charset="utf-8"></script>
+    <!-- END LiveConnectTag for advertisers -->
+    
+    <!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-T2BJNMJ');</script>
+	<!-- End Google Tag Manager -->    
+    <!-- NEW end -->
+    
+    <noscript>
+      <style>
+
+        .slides > li:first-child { display: block; }
+        .image__fallback {
+          width: 100vw;
+          display: block !important;
+          max-width: 100vw !important;
+          margin-bottom: 0;
+        }
+
+        .no-js-only {
+          display: inherit !important;
+        }
+
+        .icon-cart.cart-button {
+          display: none;
+        }
+
+        .lazyload,
+        .cart_page_image img {
+          opacity: 1;
+          -webkit-filter: blur(0);
+          filter: blur(0);
+        }
+
+        .image-element__wrap {
+          display: none;
+        }
+
+        .banner__text .container {
+          background-color: transparent;
+        }
+
+        .animate_right,
+        .animate_left,
+        .animate_up,
+        .animate_down {
+          opacity: 1;
+        }
+
+        .flexslider .slides>li {
+          display: block;
+        }
+
+        .product_section .product_form {
+          opacity: 1;
+        }
+
+        .multi_select,
+        form .select {
+          display: block !important;
+        }
+
+        .swatch-options {
+          display: none;
+        }
+
+        .parallax__wrap .banner__text {
+          position: absolute;
+          margin-left: auto;
+          margin-right: auto;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          top: 0;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+        }
+
+        .parallax__wrap .image__fallback {
+          max-height: 1000px;
+          -o-object-fit: cover;
+          object-fit: cover;
+        }
+
+      </style>
+    </noscript>
+
+  </head>
+
+  {% if template contains "index" %}
+    {% assign feature_image = true %}
+  {% elsif template contains "collection" %}
+    {% assign feature_image = true %}
+  {% elsif template contains "blog" %}
+    {% assign feature_image = true %}
+  {% elsif template contains "article" %}
+    {% assign feature_image = true %}
+  {% elsif template contains "contact" %}
+    {% assign feature_image = true %}
+  {% elsif template contains "banner" %}
+    {% assign feature_image = true %}
+  {% else %}
+    {% assign feature_image = false %}
+  {% endif %}
+
+  <body class="{{ template | replace: '.', '-' | handle }} {% if feature_image %}feature_image{% endif %}"
+    data-money-format="{% if settings.currency_format == 'money_with_currency_format' %}{{ shop.money_with_currency_format | strip_html }}{% else %}{{ shop.money_format | strip_html }}{% endif %}"
+    data-shop-url="{{ shop.url }}"
+    data-current-lang="{{ request.locale.iso_code }}">
+
+    <div id="content_wrapper">
+      {% comment %}Inject icon-star-symbol begin{% endcomment %}
+      <svg
+        class="icon-star-reference"
+        aria-hidden="true"
+        focusable="false"
+        role="presentation"
+        xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="3 3 17 17" fill="none"
+      >
+        <symbol id="icon-star">
+          <rect class="icon-star-background" width="20" height="20" fill="currentColor"/>
+          <path d="M10 3L12.163 7.60778L17 8.35121L13.5 11.9359L14.326 17L10 14.6078L5.674 17L6.5 11.9359L3 8.35121L7.837 7.60778L10 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        </symbol>
+        <clipPath id="icon-star-clip">
+          <path d="M10 3L12.163 7.60778L17 8.35121L13.5 11.9359L14.326 17L10 14.6078L5.674 17L6.5 11.9359L3 8.35121L7.837 7.60778L10 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </clipPath>
+      </svg>
+      {% comment %}Inject icon-star-symbol end{% endcomment %}
+
+
+      {% section 'header' %}
+
+      <div class="global-wrapper">
+        {% if settings.mobile_search_location == 'below-header' %}
+          {% render 'mobile-search-bar' %}
+        {% endif %}
+        {{ content_for_layout }}
+      </div>
+
+      {% if settings.show_shipping_calculator and template contains 'cart' %}
+        {% render 'cart-shipping-calculator' %}
+      {% endif %}
+
+      {% section 'footer' %}
+
+      <div id="search" class="animated">
+        <section class="section">
+          <div class="five-eighths columns medium-down--one-whole offset-by-three is-hidden-offset-mobile-only center">
+            <div data-autocomplete-{{ settings.enable_autocomplete }}>
+              <form action="{{ routes.search_url }}" class="search__form">
+                <input type="hidden" name="type" value="{{ settings.search_option }}" />
+                <div class="search__close">
+                  <span class="icon-close"></span>
+                </div>
+                <span class="search__submit icon-search"></span>
+                <input type="text" class="search__input" name="q" placeholder="{{ 'general.search.placeholder_with_shop_name' | t: shop_name: shop.name }}" aria-label="{{ 'general.search.placeholder_with_shop_name' | t }}" value="{% if search and search.results.first.price %}{{ search.terms }}{% endif %}" autocapitalize="off" autocomplete="off" autocorrect="off" />
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    {% if settings.newsletter_popup %}
+      {% render 'newsletter-popup' %}
+    {% endif %}
+
+    {% if settings.disqus_enabled %}
+      {% if template contains "blog" or template contains "article" or template contains "index" %}
+        <script id="dsq-count-scr" src="//{{ settings.disqus_shortname }}.disqus.com/count.js" async></script>
+      {% endif %}
+    {% endif %}
+
+    <script>
+      window.addEventListener('DOMContentLoaded', function() {
+        // Parallax plugin initialized if there is a parallax banner added to the page
+        if ($('.parallax-banner').length > 0) {
+          new universalParallax().init({
+            speed: window.PXUTheme.media_queries.tablet.matches ? 10 : 4
+          })
+        }
+      });
+    </script>
+
+    {% render 'mobile-search' %}
+    <script>
+      (function () {
+        function handleFirstTab(e) {
+          if (e.keyCode === 9) { // the "I am a keyboard user" key
+            document.body.classList.add('user-is-tabbing');
+            window.removeEventListener('keydown', handleFirstTab);
+          }
+        }
+        window.addEventListener('keydown', handleFirstTab);
+      })();
+    </script>
+
+  <!-- NEW start -->
+  <script src="//cdn.codeblackbelt.com/js/modules/frequently-bought-together/main.min.js?shop=dangoproducts.myshopify.com" defer></script>
+
+    
+  {% include 'easyvideo' %}
+
+
+  <!--[if lte IE 8]>
+    {{ 'skrollr.ie.js' | asset_url | script_tag }}
+  <![endif]-->
+
+  {% if template contains 'customer' %}
+    {{ "shopify_common.js" | shopify_asset_url | script_tag }}
+    {{ "customer_area.js"  | shopify_asset_url | script_tag }}
+  {% endif %}
+
+  {{ 'app.js' | asset_url | script_tag }}
+
+  <script type="application/javascript" src="https://static-us.afterpay.com/javascript/present-afterpay.js" defer></script>
+
+  <script>
+    let afterpayProduct = {{product|json}}
+
+    window.addEventListener('load', () => {
+
+      if(afterpayProduct) {
+        const apConfig = {
+          priceSelector: '.seven > .modal_price',   // REQUIRED: set to the div
+          locale: 'en_US',            	      // REQUIRED: set to the locale for your site
+          afterpayLogoColor: 'color', 	      // optional: set to use black or white logo
+          amount: afterpayProduct.price,     // optional: set to item price or order total
+          showUpperLimit: false
+        };
+        new presentAfterpay(apConfig).init();
+      }
+    });
+
+  </script>
+    <!-- START Attentive Marketing Tracking -->
+    <script src="https://cdn.attn.tv/dango/dtag.js"></script>
+    <!-- END Attentive Marketing Tracking -->
+    
+    <!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2BJNMJ"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+   
+  <script> (function(){ var s = document.createElement('script'); var h = document.querySelector('head') || document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init({ statementLink : '', footerHtml : '', hideMobile : false, hideTrigger : false, disableBgProcess : false, language : 'en', position : 'left', leadColor : '#000000', triggerColor : '#000000', triggerRadius : '50%', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerIcon : 'people', triggerSize : 'medium', triggerOffsetX : 20, triggerOffsetY : 20, mobile : { triggerSize : 'small', triggerPositionX : 'right', triggerPositionY : 'center', triggerOffsetX : 10, triggerOffsetY : 0, triggerRadius : '50%' } }); }; h.appendChild(s); })(); </script>
+  <!-- NEW end -->
+  </body>
+</html>

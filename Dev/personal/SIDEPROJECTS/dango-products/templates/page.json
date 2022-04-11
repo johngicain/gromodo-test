@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-default-template",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

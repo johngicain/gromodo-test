@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "image-with-text-overlay": {
+      "type": "image-with-text-overlay-section",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "subtitle": ""
+      }
+    },
+    "main": {
+      "type": "article-template",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "image-with-text-overlay",
+    "main"
+  ]
+}
